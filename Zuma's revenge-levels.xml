@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Levels>
+	<Settings id="easy" speed="0.4" start="30" score="700" repeat="10" colors="4" />
+
+	<Graphics id="spiral" curve="spiral" image="spiral" dispname="Spiral of Doom" />
+	<Graphics id="mouth" curve="mouth" image="mouth" dispname="Mouth of Centeotl" />
+	<Graphics id="coaster" curve="coaster" image="coaster" dispname="Altar of Tlaloc" />
+	<Graphics id="serpents" curve="serpents" image="serpents" dispname="Mirror Serpent" />
+	<Graphics id="claw" curve="claw" image="claw" dispname="Osprey Talon" />
+	<Graphics id="target" curve="target" image="target" dispname="Breath of Ehecatl" />
+	<Graphics id="tilt" curve="tilt" image="tilt" dispname="When Spirals Attack" />
+	<Graphics id="gap" curve="gap" image="gap" dispname="Mud Slide" />
+	<Graphics id="long" curve="long" image="long" dispname="Long Range" />
+	<Graphics id="snakepit" curve="snakepit" image="snakepit" dispname="Snake Pit" />
+	<Graphics id="overunder" curve="overunder" image="overunder" dispname="Sun Stone" />
+	<Graphics id="vortex" curve="vortex" image="vortex" dispname="Dark Vortex" />
+
+	<StageProgression
+		stage1="spiral,mouth,coaster,serpents,claw" diffi1="easy,easy,easy,easy,easy"
+		stage2="target,tilt,gap,long,snakepit" diffi2="easy,easy,easy,easy,easy"
+		stage3="overunder,vortex,spiral,mouth,coaster" diffi3="easy,easy,easy,easy,easy"
+		stage4="serpents,claw,target,tilt,gap" diffi4="easy,easy,easy,easy,easy"
+		stage5="long,snakepit,overunder,vortex,spiral" diffi5="easy,easy,easy,easy,easy"
+		stage6="mouth,coaster,serpents,claw,target" diffi6="easy,easy,easy,easy,easy"
+		stage7="tilt,gap,long,snakepit,overunder" diffi7="easy,easy,easy,easy,easy"
+		stage8="vortex,spiral,mouth,coaster,serpents" diffi8="easy,easy,easy,easy,easy"
+		stage9="claw,target,tilt,gap,long" diffi9="easy,easy,easy,easy,easy"
+		stage10="snakepit,overunder,vortex,spiral,mouth" diffi10="easy,easy,easy,easy,easy"
+		stage11="coaster,serpents,claw,target,tilt" diffi11="easy,easy,easy,easy,easy"
+		stage12="gap,long,snakepit,overunder,vortex" diffi12="easy,easy,easy,easy,easy"
+	/>
+</Levels>
